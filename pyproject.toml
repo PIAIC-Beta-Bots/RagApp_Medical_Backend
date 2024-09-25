@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "medicalrag-backend"
+version = "0.1.0"
+description = ""
+authors = ["ArsalanAyaz <henrykoff7788@gamil.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
